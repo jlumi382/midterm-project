@@ -80,24 +80,24 @@ h3.name-header {
 
 a {
     text-decoration: none;
-    color: var(--green);
 }
 
 a:link {
     color: var(--green);
-}
-
-a:visited {
-    color: var(--green);
-}
-
-a:hover {
+  }
+  
+  a:visited {
     color: var(--teal);
-}
-
-a:active {
-    color: var(--text);
-}
+  }
+  
+  a:hover {
+    color: var(--peach);
+  }
+  
+  a:active {
+    color: var(--red);
+  }
+  
 
 .bg2 {
     background-image: url(../img/bg.png);
