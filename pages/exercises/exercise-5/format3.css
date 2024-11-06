@@ -1,0 +1,30 @@
+table, th, td {
+	border: 1px solid red;
+}
+
+th {
+	background-color: red;
+	color: white;
+}
+.thirdColumn {
+	color: red;
+}
+
+.container {
+	margin-left: 300px;\
+	margin-top: 20px;
+}
+
+p {
+	color: indianred;
+	margin-left: 300px;
+	margin-top: 300px;
+}
+
+#iDoodle {
+	color: green;
+}
+
+#students {
+	color: blue;
+}

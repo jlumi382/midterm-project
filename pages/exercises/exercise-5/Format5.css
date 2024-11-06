@@ -1,0 +1,50 @@
+.box {
+	font-family: Times New Roman;
+	font-size: 16px;
+	width: 280px;
+	height: 280px;
+	border: 10px solid khaki;
+	border-radius: 20px;
+	padding: 20px;
+	margin: 20px;
+	float: left;
+}
+
+.box p {
+	width: 70%;
+	height: 70%;
+}
+.box h2 {
+	color: white;
+}
+#box1 {
+	background-color: olivedrab;
+}
+
+#box2 {
+	background-color: royalblue;
+}
+
+#box3 {
+	background-color: white;
+}
+
+#box1 p {
+	background-color: skyblue;
+}
+
+#box2 p {
+	background-color: tomato;
+	overflow: scroll;
+}
+
+#box3 div {
+	background-color: #ebab5c;
+	border-radius: 20px;
+	border: 5px solid khaki;
+	text-align: center;
+	padding: 5px;
+}
+#box3 div a {
+	color: black;
+}

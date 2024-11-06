@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midterm Project - Form</title>
+    <link href="../data/css/format1.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../data/img/luis.png">
+</head>
+<body class="flex-container">
+<div class="form-container">
+    <form action="#" method="post">
+        <div class="input-pair">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+
+        <div class="input-pair">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+
+        <div class="input-pair">
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" min="0" placeholder="Enter your age" required>
+        </div>
+
+        <div class="input-pair">
+            <div>What computer languages do you love? <small>(Check all that apply)</small></div>
+                <ul>
+                    <li><label><input type="checkbox" name="languages[]" value="Python"> C</label></li>
+                    <li><label><input type="checkbox" name="languages[]" value="JavaScript"> C++</label></li>
+                    <li><label><input type="checkbox" name="languages[]" value="C++"> C#</label></li>
+                    <li><label><input type="checkbox" name="languages[]" value="Java"> Java</label></li>
+                    <li><label><input type="checkbox" name="languages[]" value="Ruby"> Python</label></li>
+                    <li><label><input type="checkbox" name="languages[]" value="Go"> JavaScript</label></li>
+                    <li><label><input type="checkbox" name="languages[]" value="Swift"> React</label></li>
+                </ul>
+        </div>
+
+        <div class="input-pair">
+            <label for="comments"> Any comments or suggestions</label>
+            <textarea id="comments" name="comments"></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</body>
+</html>
