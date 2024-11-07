@@ -49,5 +49,7 @@ midterm-project
 - **`index.html`** is located at the root directory `./index.html`
 - **`format1.css`** and **`format2.css`** are located in `./data/css/`
 
+---
+
 ## Link to Website
 [https://jlumi382.github.io/midterm-project/](https://jlumi382.github.io/midterm-project)
