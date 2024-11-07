@@ -80,8 +80,7 @@ body {
 .form-container input[type="text"]:focus,
 .form-container input[type="email"]:focus,
 .form-container input[type="number"]:focus,
-.form-container textarea:focus,
-.form-container button:focus {
+.form-container textarea:focus {
     border-color: var(--green);
 }
 
